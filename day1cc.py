@@ -1,12 +1,29 @@
-name=input("user name:")
-age=input("age:");
-mobile=input("mobile number:")
-email=input("mail ID:")
-print("user name:",name);
+x=("CREATING USER PROFILE")                   
+print(x)
+name=str(input("user name:"))
+age=int(input("age:"))
+mobile=int(input("mobile number:"))
+email=str(input("mail ID:"))
+address=input("Address:")
+pincode=int(input("pin code:"))
+a=("congratulations you successfully created your profile😇")
+
+#outputs and their data types
+print("USER NAME:",name);
 print(type(name))
-print("age:",age);
+
+print("AGE:",age);
 print(type(age))
-print("mobile number:",mobile)
+
+print("MOBILE NUMBER:",mobile)
 print(type(mobile))
-print("mail ID:",email)
+
+print("MAIL ID:",email)
 print(type(email))
+
+print("ADDRESS:",address)
+print(type(address))
+
+print("PIN CODE:",pincode)
+print(type(pincode))
+print(a)
